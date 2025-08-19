@@ -56,12 +56,11 @@ h2{
 }
 
 .header-text {
-	color: #FFF;
 	margin: 40px 0 0;
 }
 
-.header-text>p {
-	padding: 2px;
+.header-text>p+p {
+	margin: 5px;
 }
 
 .header-link {
@@ -76,17 +75,17 @@ h2{
 .main-sect {
 	background-color: #FFE482;
 }
-.container-main {
+.container {
 	text-align: center;
 	width: 1200px;
 	margin: 0 auto;
 	background-color: #FFE482;
 	color: #3D3D3D;	
 }
-.container-main>h2 {
+.container>h2 {
 	padding-top: 20px;
 }
-.container-main>p{
+.container>p{
 	margin-top: 30px;
 	padding-bottom: 50px;
 }
@@ -109,5 +108,5 @@ h2{
 .footer {
 	color: #A3ABB2;
 	text-align: center;
-	margin: 50px 0 50px;
+	padding: 50px 0 50px;
 }
