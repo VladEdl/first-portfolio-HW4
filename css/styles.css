@@ -59,8 +59,9 @@ h2{
 	margin: 40px 0 0;
 }
 
-.header-text>p+p {
+.header-text>p {
 	margin: 5px;
+	color: #F1F2F4;
 }
 
 .header-link {
@@ -80,7 +81,8 @@ h2{
 	width: 1200px;
 	margin: 0 auto;
 	background-color: #FFE482;
-	color: #3D3D3D;	
+	color: #3D3D3D;
+	padding: 20px 0 60px;	
 }
 .container>h2 {
 	padding-top: 20px;
@@ -90,13 +92,6 @@ h2{
 	padding-bottom: 50px;
 }
 
-.container-second {
-	text-align: center;
-	width: 1200px;
-	margin: 0 auto;
-	background-color: #0C151D;
-	color: #FFF;
-}
 .container-second>h2 {
 	padding-top: 50px;
 }
