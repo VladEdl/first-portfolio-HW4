@@ -27,6 +27,10 @@ h2{
 	padding: 36px 0 82px;
 }
 
+.head{
+	display: inline-block;
+}
+
 .header-photo {
 	background: red;
 	width: 215px;
@@ -66,12 +70,57 @@ h2{
 
 .header-link {
 	margin-top: 40px;
+	font-size: 0px;
 }
 
-.header-link>a {
-	margin: 0 20px 0;
-	color: #FFE482;
+.header-link a {
+	color: #3d3d3d;
+	text-decoration: none;
+	font-size: 22px;
+	padding: 25px 50px;
+	background-color: #FFE482;
+	display: inline-block;
+	border-radius: 6px;
 }
+
+.header-link a:hover {
+	background-color:cadetblue;
+}
+
+.header-link a:last-child{
+	margin-left: 40px;
+	/* background-color: #3E64AA; */
+}
+/* PHOTO BLOCK */
+.image>h2{
+	color: #A3ABB2;
+	margin-top: 100px;
+	margin-bottom: 40px;
+}
+
+.portfolio-cards {
+	font-size: 0;
+	margin: 0 -15px;
+}
+
+.portfolio-card {
+	width: 33.333%;
+	height: 226px;
+	display: inline-block;
+	font-size: 22px;
+	margin-bottom: 30px;
+	border-radius: 15px;
+	overflow: hidden;
+	padding: 0 15px;
+}
+
+.portfolio-card img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+
 /* MAIN BLOCK */
 .main-sect {
 	background-color: #FFE482;
