@@ -7,6 +7,15 @@ body {
 	color: #FFF;
 	font-size: 22px;
 }
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../font/Poppins-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
 h2{
 	font-weight: 500;
 	font-size: 46px;
@@ -158,7 +167,7 @@ h2{
 	text-align: center;
 	width: 1200px;
 	margin: 0 auto;
-	background-color: #FFE482;
+
 	color: #3D3D3D;
 	padding: 20px 0 60px;	
 }
@@ -175,4 +184,5 @@ h2{
 	color: #A3ABB2;
 	text-align: center;
 	padding: 50px 0 50px;
+	/* background: #0C151D; */
 }
