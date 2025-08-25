@@ -37,7 +37,13 @@ h2{
 }
 
 .zabyv {
-	margin-bottom: 65px;
+	margin: 0 auto 65px;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	padding: 20px;
+	cursor: pointer;
+	background-color: #142431;
 }
 
 .head{
@@ -69,7 +75,7 @@ h2{
 	margin-left: 45px;
 }
 
-.theme img+img {
+.theme a+a {
 	margin-left: 25px;
 }
 
