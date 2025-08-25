@@ -157,7 +157,7 @@ h2{
 
 .portfolio-card :last-child,
 .portfolio-card :nth-child(4n) {
-	padding left: 0px;
+	padding-left: 0px;
 }
 
 .portfolio-card img {
